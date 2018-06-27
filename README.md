@@ -26,6 +26,11 @@ CREATE DATABASE example CHARACTER SET utf8mb4
 webback.mix.jsに必要な設定を書いた後に
 npm run devでscssからcss、全てくっついたコンパクトなjsファイルが作成される。
 
+5)OAuthの導入(passport ver3をインストール）
+composer require laravel/passport ^v3
+
+
+
 # GIT
 
 1)Branchの作成
@@ -39,5 +44,7 @@ git checkout branchname
 
 4)元のBranchに戻る
 git checkout master
+
+
 
 

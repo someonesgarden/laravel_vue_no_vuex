@@ -2480,6 +2480,17 @@ body {
     }
 }
 
+.login-container {
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+@media (min-width: 374px) {
+    .login-container {
+        width: 350px;
+    }
+}
+
 
 
 .heading {
@@ -2496,12 +2507,30 @@ body {
   color: #767676;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid #dce0e0;
+}
+
 button {
+    border-radius: 4px;
+    border: 1px solid #c4c4c4;
     text-align: center;
     vertical-align: middle;
+    font-weight: bold;
+    line-height: 1.43;
     user-select: none;
     white-space: nowrap;
     cursor: pointer;
+    background: #ffffff;
+    color: #484848;
+    padding: 7px 18px;
+    font-size: 14px;
     display: inline-block;
     margin-bottom: 0;
 }
+
+input[type=text] {
+    -webkit-appearance: none;
+}
+
