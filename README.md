@@ -1,5 +1,5 @@
-# Laravel php Frameworkで簡潔にサイトベースを作り、
-Vue.jsでインタラクティヴに設計するための簡単なプロトタイプ
+# Laravel+Vue.js : vuebnb
+# laravel_vue_no_vuex
 
 １）バージョン指定でlaravelプロジェクトを作成
 composer create-project "laravel/laravel=5.4.*" projectname
@@ -7,7 +7,6 @@ composer create-project "laravel/laravel=5.4.*" projectname
 2)パーミッションの設定
 chmod 777 -R storage
 chmod 777 ./bootstrap/cache/
-
 
 2)参考サイトのようにVue.jsフレームワークを導入
 https://qiita.com/fruitriin/items/e0f2c9aa035c3ff2c874
@@ -41,4 +40,4 @@ git checkout branchname
 4)元のBranchに戻る
 git checkout master
 
-# laravel_vue_no_vuex
+
